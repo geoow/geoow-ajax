@@ -1,0 +1,35 @@
+{
+  "name": "geoow-ajax",
+  "version": "1.0.0",
+  "description": "Start project with gulp etc",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "gulp karma"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geoow/geoow-ajax.git"
+  },
+  "keywords": [
+    "geoow",
+    "start"
+  ],
+  "author": "dejakob",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/geoow/geoow-ajax/issues"
+  },
+  "homepage": "https://github.com/geoow/geoow-ajax#readme",
+  "devDependencies": {
+    "babel": "6.3.13",
+    "babel-preset-es2015": "6.3.13",
+    "gulp": "3.9.0",
+    "gulp-babel": "6.1.1",
+    "gulp-concat": "2.6.0",
+    "gulp-rename": "1.2.2",
+    "gulp-uglify": "1.5.1"
+  },
+  "dependencies": {
+    "geoow-promise": "1.0.1"
+  }
+}
